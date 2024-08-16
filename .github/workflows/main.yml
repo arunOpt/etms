@@ -1,0 +1,10 @@
+on:
+  [push]
+jobs:
+  build: 
+    name: sample-name
+    runs-on: ubuntu-latest
+    steps:
+      - name: step-name
+        run: |
+          echo test
